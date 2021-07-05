@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "546725155858",
+    "project_id": "fir-pushnotification-1cf8d",
+    "storage_bucket": "fir-pushnotification-1cf8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546725155858:android:2b9c9f202d7d1cc32274cb",
+        "android_client_info": {
+          "package_name": "com.candroid.firebasepushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546725155858-o688f34n3182uo1lrviqr5haqn9ppllr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB9zSh31Ryjo18Pt1GemcisO6vyX6ghTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546725155858-o688f34n3182uo1lrviqr5haqn9ppllr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
