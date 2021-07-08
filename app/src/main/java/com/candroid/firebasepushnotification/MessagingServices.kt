@@ -46,7 +46,10 @@ class MessagingServices(): FirebaseMessagingService() {
         val intent=Intent(this,MainActivity::class.java)
         var notificationManager=getSystemService(Context.NOTIFICATION_SERVICE)as NotificationManager
            var notificationId=Random.nextInt()
-intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+            if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.O){
+              createNotification(notificationManager)    
+              }
+      intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
         val pendingIntent=PendingIntent.getActivity(this,0,intent,FLAG_ONE_SHOT)
 val notification=NotificationCompat.Builder(this, channelId)
     .setContentTitle(message.data["title"])
